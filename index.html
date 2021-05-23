@@ -1,0 +1,194 @@
+<?php
+
+?>
+
+<html>
+  	<head>
+  		<meta charset="utf-8">
+		<title>	
+  			Андрей у меня дома
+  		</title>
+  		<link href="forms.css" rel="stylesheet">
+  		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  		<script >
+            var id_index = 0;
+            function rp(){
+                document.location.replace("http://80.82.63.117");
+            }
+            
+              
+            function delete_indextext() { 
+                var indextext = document.getElementById('indextext'); 
+                indextext.remove();
+                console.log("asdfasdf");
+            }
+            
+            function onloadf1(){
+                //console.log(i.toString());
+               // var base = document.createElement("div");
+                //document.body.appendChild(base);
+               /* for (i = 1; i<10; i++){
+                    var d1 = document.createElement("div");
+                    if (id_index==1)
+                        d1.innerHTML = "start" + i.toString();
+                    else 
+                        d1.innerHTML = "div" + i.toString();
+                    d1.id = "id" + i.toString();
+                    document.body.appendChild(d1);
+                }
+                */for (id_index; id_index<10; id_index++){
+                    var d1 = document.createElement("div");
+                    if (id_index==1)
+                        d1.innerHTML = "start" + id_index.toString();
+                    else 
+                        d1.innerHTML = "div" + id_index.toString();
+                    d1.id = "id" + id_index.toString();
+                    document.body.appendChild(d1);
+                    
+                }
+                for (id_index; id_index<20; id_index++){
+                    var d1 = document.createElement("div");
+                    if (id_index==1)
+                        d1.innerHTML = "start" + id_index.toString();
+                    else 
+                        d1.innerHTML = "div" + id_index.toString();
+                    d1.id = "id" + id_index.toString();
+                    document.body.appendChild(d1);
+                }
+                delete_indextext();
+//                 var d1 = document.createElement("div");
+//                 let number = 1;
+//                 d1.innerHTML = "div" + number.toString();
+//                 document.body.appendChild(d1);
+//                 var d1 = document.getElementById('indextext');
+//                 d1.insertAdjacentHTML('afterend', '<div id="two">two</div>');
+//                 document.body.appendChild("div");
+//                 
+                //console.log(sd);
+                //console.log(document.body);
+            }
+            function    bl(){
+                //window.alert("DFDASSDF");
+                window.blur();
+            }
+  		</script>
+  		
+ 	</head>
+ 	
+  	<!--<body class="body_class" onload="delete_indextext()">  -->
+        <body class="body_class" onload="rp()"> 
+        <div id="indextext">
+            АртДенталь стоматология Воронеж Дентика Эра стоматология Воронежа Воронежская стоматология Лечение пломбирование пломба
+            Переделка сайтов. Дописать сайт. Дописывание сайтов. Техническое задание для сайтов. ТЗ для сайтов. Ремонт сайтов. Услуги переделки сайтов. Услуги дописывания сайтов.
+        </div>
+  		<table class="line" align="center" onmousemove="bl()">
+			<tr>
+				<td align="center" >
+					Главная 
+				</td>
+				
+				<td align="center">
+					О компании
+				</td>
+				
+				<td align="center">
+					Услуги
+				</td>
+				
+				<td align="center">
+					Прайс-лист
+				</td>
+				
+				<td align="center">
+					Контакты
+				</td>
+			</tr>
+  		</table>
+  		<table align="center">
+			<tr class="row1">
+				<td class="body_class" width=72>
+					
+				</td>
+				
+				<th>
+					+
+				</th>
+				
+				<th>
+					N
+				</th>
+				
+				<th>
+					-
+				</th>
+			</tr>
+			
+			<tr class="row2">
+				<th>
+					+
+				</th>
+				
+				<td>
+					Мутуализм
+				</td>
+				
+				<td class="body_class">
+				</td>
+				
+				<td class="body_class">
+				</td>
+			</tr>
+			
+			<tr class="row3">
+				<th> 
+					N
+				</th>
+				
+				<td>
+					Комменсализм
+				</td>
+				
+				<td>
+					Нейтрализм
+				</td>
+				
+				<td class="body_class">
+				</td>
+			</tr>
+			<tr class="row4">
+				<th>
+					-
+				</th>
+				
+				<td>
+					Паразитизм
+					<br>
+					Хищничество
+				</td>
+				
+				<td>
+					Аменсализм
+				</td>
+				
+				<td>
+					Аллелопатия
+					<br>
+					Конкуренция
+				</td>
+			</tr>
+  		</table>
+  		
+  		<form  method="POST" id="form1">
+            
+            <input id="GET-name" type="text" name="name">
+            <button form="form1" >
+            Press   
+            </button>
+  		</form>
+
+	
+    
+<?php mail('excel8@ya.ru', 'phpexper', 'asdf');?>
+
+  	</body>
+</html>
